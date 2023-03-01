@@ -1,0 +1,18 @@
+.test {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footerContainer {
+    display: flex;
+    background-color: aquamarine;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+   
+ 
+}
+ .footerContainer li {
+    padding-left: 10px;
+ }

@@ -1,0 +1,51 @@
+
+
+  .allHeader {
+    background-color: #bdbdbd;
+    padding: 1px;
+  }
+
+  .topBar {
+    background-color: #04008a;
+    margin: 4px;
+    padding: 3px;
+    display: flex;
+      position: relative;
+      width: 100%;
+     
+      /*Center the header*/
+      justify-content: center;
+      /*if horizontal centering is required add this*/
+      align-items: center;
+ 
+  }
+  
+  .randomFacts {
+   color: white;
+  }
+  
+  .partyBtn {
+    position: absolute;
+    right: 0;
+ margin-right: 12px;
+  }
+
+
+  ul {
+    list-style-type: none;
+  }
+
+  .mainHeader {
+    display: flex;
+  justify-content: space-between;
+  flex: 0 1 30%;
+  background-color: #bdbdbd;
+  }
+
+  .navContainer{
+    flex:  0 1 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  } 
