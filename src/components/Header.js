@@ -1,6 +1,7 @@
 import React from "react";
 import "./Header.css";
 import randomFacts from "../randomFacts";
+import { NavLink } from "react-router-dom";
 
 export default function Header() {
   const [partyMode, setPartyMode] = React.useState(true);
@@ -16,12 +17,12 @@ export default function Header() {
     setFacts(factsArray[randomNumber]);
   }
 
-  // React.useEffect(() => {
-  //   const interval = setInterval(() => {
-  //     console.log(getRandomFact());
-  //   }, 3000);
-  //   return () => clearInterval(interval);
-  // }, []);
+  React.useEffect(() => {
+    const interval = setInterval(() => {
+      console.log(getRandomFact());
+    }, 3000);
+    return () => clearInterval(interval);
+  }, []);
 
   return (
     <>
@@ -35,8 +36,9 @@ export default function Header() {
         <div className="mainHeader">
           <h1>AJC</h1>
           <ul className="navContainer">
-            <li>Home</li>
-            <li>About</li>
+            <NavLink to="/">Home</NavLink>
+            <NavLink to="/about">About</NavLink>
+
             <li>Projects</li>
             <li>Contact</li>
           </ul>
