@@ -6,12 +6,35 @@ import Youtube from "../images/youtube.png";
 
 export default function Footer() {
   return (
-    <div className="test">
-      <ul className="footerContainer">
-        <img className="linkedInImg footerImg" src={LinkedIn} />
-        <img className="gitHubImg footerImg" src={Github} />
-        <img className="youTubeImg footerImg" src={Youtube} />
-      </ul>
+    <div>
+      <div className="test">
+        <ul className="footerContainer">
+          <div className="FooterHeader">
+            <div className="FooterImgContainer">
+              <p>Linkedin</p>
+            </div>
+            <div className="innerBtn">
+              <img className="linkedInImg footerImg" src={LinkedIn} />
+            </div>
+          </div>
+          <div className="FooterHeader">
+            <div className="FooterImgContainer">
+              <p>Github</p>
+            </div>
+            <div className="innerBtn">
+              <img className="gitHubImg footerImg" src={Github} />
+            </div>
+          </div>
+          <div className="FooterHeader">
+            <div className="FooterImgContainer">
+              <p>Youtube</p>
+            </div>
+            <div className="innerBtn">
+              <img className="youTubeImg footerImg" src={Youtube} />
+            </div>
+          </div>
+        </ul>
+      </div>
     </div>
   );
 }

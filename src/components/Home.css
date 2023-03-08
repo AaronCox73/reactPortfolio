@@ -1,0 +1,24 @@
+.homeContainer {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.BackgroundImg {
+    height: 90%;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+ margin-right: auto;
+padding: 10px;
+}
+

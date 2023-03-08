@@ -3,6 +3,8 @@
   .allHeader {
     background-color: #bdbdbd;
     padding: 1px;
+    height: 100px;
+    outline: black solid 1px;
   }
 
   .topBar {
@@ -12,7 +14,7 @@
     padding: 3px;
     display: flex;
       position: relative;
-      width: 100%;
+     
      
       /*Center the header*/
       justify-content: center;

@@ -1,5 +1,5 @@
 .test {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }
@@ -24,34 +24,54 @@ height: 30px;
 filter: grayscale(50%); 
  }
 
- .linkedInImg:hover {
-    width: 40px;
-    height: 40px;
- }
+ 
 
  .gitHubImg{
     width: 30px;
     height: 30px;
-    margin-left: 10px;
-    filter: contrast(160%); 
+  
+   filter: contrast(160%); 
     filter: saturate(3);
  }
 
- .gitHubImg:hover{
-    width: 40px;
-    height: 40px;
+ .innerBtn{
+   display: flex;
+   justify-content: center;   
+   align-items: center;
  }
 
  .youTubeImg {
     width: 30px;
     height: 30px;
-   margin-left: 12px;
+   
     filter: grayscale(50%); 
  }
 
- .youTubeImg:hover {
-    width: 40px;
-    height: 40px;
+ .FooterHeader:hover {
+    width: 70px;
+    height: 70px;
  }
 
  
+ .FooterHeader {
+   border: 5px solid blue;
+   width: 40px;
+   height: 40px;
+   border: 3px solid #bdbdbd;
+   outline: black solid .5px;
+   margin: 5px;
+}
+
+.FooterImgContainer {
+   display: flex;
+   justify-content: center;
+   background-color: #120bce;
+   outline: black solid .5px;
+   color: white;
+   font-size: 7px;
+ 
+}
+
+.innerBtn {
+   background-color: white;
+}

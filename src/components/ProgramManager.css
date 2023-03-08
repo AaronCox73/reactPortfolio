@@ -1,0 +1,40 @@
+.ProgramManagerContainer {
+    border: 3px solid #bdbdbd;
+    outline: black solid 1px;
+    width: 90%;
+    height: 300px;
+}
+
+.ProManHeader{
+    display: flex;
+    justify-content: center;
+    background-color: #120bce;
+    color: white;
+}
+
+.MainProManContainer {
+ 
+    display: flex;
+    justify-content: center;
+    background-color: #120bce;
+    color: white;
+  
+}
+
+
+.subHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.subHeader li {
+    padding-right: 10px;
+}
+.Border {
+    border: 5px solid blue;
+    width: 60%;
+    height: 200px;
+    border: 3px solid #bdbdbd;
+    outline: black solid 1px;
+}
