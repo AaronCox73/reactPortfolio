@@ -6,12 +6,12 @@
 
 .footerContainer {
     display: flex;
-    background-color: aquamarine;
+    background-color: #bdbdbd;
     list-style-type: none;
     justify-content: center;
     align-items: center;
    height: 50px;
- 
+   outline: black solid 1px;
 }
  .footerContainer li {
     padding-left: 10px;
@@ -50,6 +50,7 @@ filter: grayscale(50%);
  .FooterHeader:hover {
     width: 70px;
     height: 70px;
+    
  }
 
  

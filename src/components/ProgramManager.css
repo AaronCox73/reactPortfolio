@@ -10,6 +10,24 @@
     justify-content: center;
     background-color: #120bce;
     color: white;
+    position: relative;
+    outline: black solid 1px;
+     
+      /*Center the header*/
+      justify-content: center;
+      /*if horizontal centering is required add this*/
+      align-items: center;
+}
+
+.exit{
+position: absolute;
+right: 0;
+ margin-right: 12px;
+ background-color:#bdbdbd;
+ outline: black solid 1px;
+color: black;
+ padding-left: 3px;
+ padding-right: 3px;
 }
 
 .MainProManContainer {
@@ -38,3 +56,19 @@
     border: 3px solid #bdbdbd;
     outline: black solid 1px;
 }
+
+.Iconimgs{
+ display: inline;
+   
+}
+.Iconimgs span {
+    font-size: 300%;
+    margin: 1%;
+}
+
+.Iconimgs div {
+font-size: 15px;
+}
+
+
+

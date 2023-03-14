@@ -36,11 +36,24 @@ export default function Header() {
         <div className="mainHeader">
           <h1>AJC</h1>
           <ul className="navContainer">
-            <NavLink to="/">Home</NavLink>
-            <NavLink to="/about">About</NavLink>
-
-            <li>Projects</li>
-            <li>Contact</li>
+            <NavLink to="/">
+              <span class="material-symbols-outlined">
+                home<div className="iconName">Home</div>
+              </span>
+            </NavLink>
+            <NavLink to="/about">
+              <span class="material-symbols-outlined">
+                info<div className="iconName">About</div>
+              </span>
+            </NavLink>
+            <NavLink to="/projects">
+              <span class="material-symbols-outlined">
+                receipt_long<div className="iconName">Projects</div>
+              </span>
+            </NavLink>
+            <span class="material-symbols-outlined">
+              connect_without_contact<div className="iconName">Contact</div>
+            </span>
           </ul>
         </div>
       </header>

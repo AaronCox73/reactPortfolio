@@ -1,0 +1,54 @@
+.AboutContainer {
+    border: 3px solid #bdbdbd;
+    outline: black solid 1px;
+    width: 90%;
+    height: 300px;
+    background-color: #dcdada;
+
+}
+
+.AboutHeader{
+    display: flex;
+    justify-content: center;
+    background-color: #045cba;
+  background-image:
+    linear-gradient(
+      to right, 
+      #045cba, #43b8f3
+    );
+    color: white;
+    position: relative;
+    outline: black solid 1px;
+     
+      /*Center the header*/
+      justify-content: center;
+      /*if horizontal centering is required add this*/
+      align-items: center;
+      margin-top: 2px;
+}
+
+.AboutContainer {
+  position: relative;
+  /* set the container as relative so we can position the fakeBtns inside */
+}
+
+.btnPlacement {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 20px;
+  /* set the btnPlacement as absolute so it can be positioned inside the AboutContainer */
+  /* center the btnPlacement horizontally using left and transform */
+  /* set a bottom margin of 20px to position it at the bottom of the AboutContainer */
+}
+
+.fakeBtn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 10px;
+  /* style the fakeBtn as needed */
+}
